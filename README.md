@@ -1,15 +1,10 @@
-# RHCSA-cheat-sheet
+# Red Hat Certified System Administrator - Cheat Sheet
 
-
-## Tests:
+## Tests
 Persistence - make everything persistent
 chkconfig everything
 iptables everything
 Restart and test after each task
-
-
-## Access a shell prompt and issue commands with correct syntax
-	- NA
 
 ## Input Output Redirection
 	> overwrite
@@ -36,7 +31,7 @@ Restart and test after each task
 	scp 
 	sftp
 
-##Log in and switch users in multiuser runlevels
+## Log in and switch users in multiuser runlevels
 	su -
 	su
 
