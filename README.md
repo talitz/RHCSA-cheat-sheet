@@ -1,10 +1,10 @@
 # Red Hat Certified System Administrator - Cheat Sheet
 
 ## Tests
-Persistence - make everything persistent
-chkconfig everything
-iptables everything
-Restart and test after each task
+	Persistence - make everything persistent
+	chkconfig everything
+	iptables everything
+	Restart and test after each task
 
 ## Input Output Redirection
 	> overwrite
