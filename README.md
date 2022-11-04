@@ -57,7 +57,7 @@
 ## Create hard and soft links
 	ln source destination  HARD 
 	ln -s source destination SOFT
-![alt text]([http://url/to/img.png](https://miro.medium.com/max/624/1*bEu7dBB67IXWxxb_Qi8A0w.jpeg))
+![alt text]([https://miro.medium.com/max/624/1*bEu7dBB67IXWxxb_Qi8A0w.jpeg](https://miro.medium.com/max/624/1*bEu7dBB67IXWxxb_Qi8A0w.jpeg))
 
 ## List, set, and change standard ugo/rwx permissions
 	chmod 777
