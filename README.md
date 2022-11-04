@@ -45,6 +45,7 @@
 	yum install star
 	star -xattr -H=exustar -c -f=home.star /home/
 	star -x -f=home.star
+	star -cz file=/home/bob/backup.star.gz /home/bob/files/
 
 ## Create, delete, copy, and move files and directories
 	mv -r
@@ -64,6 +65,7 @@
 	chmod 777
 	chmod g+s
 	chmod g+t
+	find /opt/assets -type f -perm 2664 -exec cp -p "{}" /home/bob/specialfiles/ \;
 
 ## Locate, read, and use system documentation including man, info, and files in /usr/share/doc
 	man -k [_selinux |command]
