@@ -46,10 +46,6 @@
 	star -xattr -H=exustar -c -f=home.star /home/
 	star -x -f=home.star
 
-
-## Create and edit text files
-	vim
-
 ## Create, delete, copy, and move files and directories
 	mv -r
 	cp
@@ -61,10 +57,9 @@
 ## Create hard and soft links
 	ln source destination  HARD 
 	ln -s source destination SOFT
-
+![alt text]([http://url/to/img.png](https://miro.medium.com/max/624/1*bEu7dBB67IXWxxb_Qi8A0w.jpeg))
 
 ## List, set, and change standard ugo/rwx permissions
-
 	chmod 777
 	chmod g+s
 	chmod g+t
@@ -74,9 +69,6 @@
 	appropos [command]
 	ls /usr/share/doc | grep [command]
 
-
-
-
 ##OPERATE RUNNING SYSTEMS
 ========================
 ## Boot, reboot, and shut down a system normally
@@ -85,14 +77,17 @@
 
 ## Boot systems into different runlevels manually
 	init x
+	
 ## Use single-user mode to gain access to a system
 	boot, e, 1, b
+	
 ## Identify CPU/memory intensive processes, adjust process priority with renice, and kill processes
 	top
 	renice
 
 ## Locate and interpret system log files
 	/var/log/*
+	
 ## Access a virtual machine's console
 	ssh
 
@@ -109,7 +104,6 @@
 		*Remember* 4th partition must ALWAYS be extended
 		82/83 SWAP/8e LVM
 
-
 ## Create and remove physical volumes, assign physical volumes to volume groups, and create and delete logical Volumes
 	pvcreate /dev/XXXX
 	vgcreate VGNAME PVNAME
@@ -122,7 +116,6 @@
 
 	lvcreate -s -n snapshotlv -L `0G /dev/vgname/lvname <-- create a snamshot
 	mount -r ro /dev/vgname/snapshotlv /snapmount <-- if it needs to be mounted
-
 
 ## Create and configure LUKS-encrypted partitions and logical volumes to prompt for password and mount a decrypted file system at boot
 	Requires dm_crypt: lsmod grep dm_crypt ; modprobe dm_crypt
@@ -157,7 +150,6 @@
 	fstab
 		UUID=xxxxx /newname_dir ext4 defaults
 	mount -a
-
 
 ## Configure systems to mount file systems at boot by Universally Unique ID (UUID) or label
 	blkid 
