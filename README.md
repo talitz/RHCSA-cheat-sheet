@@ -1,17 +1,17 @@
 # RHCSA-cheat-sheet
 
 
-Tests:
+## Tests:
 Persistence - make everything persistent
 chkconfig everything
 iptables everything
 Restart and test after each task
 
 
-Access a shell prompt and issue commands with correct syntax
+## Access a shell prompt and issue commands with correct syntax
 	- NA
 
-Input Output Redirection
+## Input Output Redirection
 	> overwrite
 	< send into command
 	>> append 
@@ -22,7 +22,7 @@ Input Output Redirection
 	stdout =1
 	stderr =2
 
-Use grep and regular expressions to analyze text
+## Use grep and regular expressions to analyze text
 	grep
 	egrep '(x|y)'
 
